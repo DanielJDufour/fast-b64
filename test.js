@@ -25,6 +25,14 @@ test('converting from bits to a base64 string', t => {
   t.is(bitstobase64(bits), base64);
 });
 
+// test('on varying lengths', t => {
+//   const manybits = bits.repeat(10);
+//   for (let i = 24; i < manybits.length; i++) {
+//     const result = bitstobase64(manybits.slice(0, i));
+//     validate(result);
+//   }
+// });
+
 /*
 test('converting array buffer to a base64 string', t => {
   const nums = [];
