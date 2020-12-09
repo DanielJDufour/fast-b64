@@ -3,6 +3,13 @@
   "version": "0.0.0",
   "description": "Quickly Convert between B64 and Binary Strings",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "base64-to-bits.js",
+    "bits-to-base64.js",
+    "bits-to-char.json",
+    "char-to-bits.json"
+  ],
   "scripts": {
     "test": "ava"
   },
