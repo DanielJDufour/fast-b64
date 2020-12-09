@@ -1,6 +1,6 @@
 {
   "name": "fast-b64",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Quickly Convert between B64 and Binary Strings",
   "main": "index.js",
   "files": [
